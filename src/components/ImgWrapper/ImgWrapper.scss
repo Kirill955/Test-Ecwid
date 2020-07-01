@@ -6,10 +6,17 @@
   flex-wrap: wrap;
 }
 .gallery-item {
-  width: 23.7%;
+  width: 23%;
   min-height: 160px;
-  margin: 5px auto;
+  margin: 1%;
   background-size: cover;
   background-position: center;
 }
 
+// Media query
+@media ( max-width: 567px ) {
+  .gallery-item {
+    width: 31.3%;
+    min-height: 140px;
+  }
+}
