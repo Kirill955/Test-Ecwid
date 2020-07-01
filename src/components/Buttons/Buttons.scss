@@ -13,3 +13,11 @@ button {
 .btn-delete {
   background-color: rgb(207, 23, 23);
 }
+
+
+// Media query
+@media (max-width: 576px) {
+  button {
+    margin: 0 auto 10px;
+  }
+} 
