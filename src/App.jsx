@@ -4,15 +4,13 @@ import React from 'react';
 import './App.scss';
 
 // Components
-import { Inputs } from './components/Inputs/Inputs';
-import { Buttons } from './components/Buttons/Buttons';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
       <h1>React !</h1>
-      <Inputs.Text />
-      <Buttons.Submit handler={() => console.log('click')} />
+      <Form />
     </div>
   );
 }
