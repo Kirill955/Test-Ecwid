@@ -7,6 +7,13 @@
   flex-direction: column;
 }
 
+.form__btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 // Media query
 @media (max-width: 650px) {
   .form-img {

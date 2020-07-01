@@ -22,15 +22,24 @@ function App() {
 
   // Добавление нового изображения 
   const addImg = (event) => {
-    event.preventDefault()
+    event.preventDefault();
     const image = {url: document.querySelector('input').value};
-    getImages([...images, image])
+    getImages([...images, image]);
     document.querySelector('input').value = '';
+  };
+
+  // Удаление последнего изображения
+  const deleteImg = (event) => {
+    event.preventDefault();
+    console.log('click');
+    const newImages = images;
+    newImages.pop();
+    getImages([...newImages]);
   };
 
   return (
     <div className="App">
-      <Form handlerForm={addImg} />
+      <Form handlerForm={ addImg } handlerDelete={ deleteImg } />
       <ImgWrapper imagesArr={images} />
     </div>
   );
