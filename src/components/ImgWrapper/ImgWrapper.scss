@@ -1,0 +1,15 @@
+.gallery-wrrapper {
+  max-width: 860px;
+  min-width: 320px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-item {
+  width: 23.7%;
+  min-height: 160px;
+  margin: 5px auto;
+  background-size: cover;
+  background-position: center;
+}
+

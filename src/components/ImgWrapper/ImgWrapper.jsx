@@ -13,10 +13,13 @@ export const ImgWrapper = () => {
       })
   }, []);
   return (
-    <>
-      {images.map(img => {return (<img src={img.url} alt="fd" key={Math.random()}/>)})}
-      {console.log(images)}
-    </>
+    <div className="gallery-wrrapper">
+        { images.map(img => {
+          return (
+            <div className="gallery-item" key={Math.random()} style={{backgroundImage: `url(${img.url})`}} />
+          )}
+        )}
+    </div>
   )
 };
 
