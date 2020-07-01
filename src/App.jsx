@@ -39,6 +39,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className="title">Добро пожаловать в галерею изображений</h1>
       <Form handlerForm={ addImg } handlerDelete={ deleteImg } />
       <ImgWrapper imagesArr={images} />
     </div>
