@@ -8,11 +8,7 @@ import { Inputs } from '../Inputs/Inputs';
 import { Buttons } from '../Buttons/Buttons';
 
 
-export const Form = () => {
-  const handlerForm = ( event ) => {
-    event.preventDefault()
-    console.log('click')
-  };
+export const Form = ({ handlerForm }) => {
   return (
     <form action="POST" className="form-img" >
       <Inputs.Text />
