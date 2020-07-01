@@ -1,8 +1,5 @@
 import React from 'react';
 
-// Style
-import './InputText.scss';
-
 // Input для текста 
 export const InputText = () => {
   return (
