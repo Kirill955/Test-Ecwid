@@ -1,5 +1,7 @@
 ### Deploy
 http://j1004975.myjino.ru/gallery/ 
+Простая реализация галереи с фоновой загрузкой JSON(ссылки на изображения), и возможностью добавлять url изображения и удалять их.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
